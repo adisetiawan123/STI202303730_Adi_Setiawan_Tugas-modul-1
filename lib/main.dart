@@ -1,4 +1,4 @@
-import 'package:flutter_application_praktek/column_widget.dart';
+import 'package:flutter_application_praktek/UI/produk_form.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: "Aplikasi Flutter Pertama",
 
-      home: ColumnWidget(),
+      home: ProdukForm(),
     );
   }
 }
